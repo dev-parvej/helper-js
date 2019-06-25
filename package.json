@@ -1,0 +1,31 @@
+{
+  "name": "helper",
+  "version": "1.0.0",
+  "description": "This package will provide you some simple helper functions",
+  "module": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run helper-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akashaj09/helper-js.git"
+  },
+  "keywords": [
+    "helper",
+    "js-helper",
+    "js",
+    "javascript",
+    "es6",
+    "helper"
+  ],
+  "author": "Akash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akashaj09/helper-js/issues"
+  },
+  "homepage": "https://github.com/Akashaj09/helper-js#readme"
+}
