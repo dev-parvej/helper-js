@@ -8,7 +8,7 @@ npm i aj-helper-js
 # usage
 
 ```
-  import { helperName } from 'helper-js'
+  import { helperName } from 'aj-helper-js'
   
   const result = helperName(...parameter);
 ```
