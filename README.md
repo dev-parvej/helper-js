@@ -1,6 +1,9 @@
 # helper-js
 sum simple helper method for js
-#installation 
+# installation 
+```
+npm i aj-helper-js
+```
 
 # usage
 
