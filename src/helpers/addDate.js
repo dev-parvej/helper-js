@@ -10,7 +10,7 @@ const addDate = function(startDate = new Date(), numberOfDays = 1){
         startDate.getMonth(),
         startDate.getDate()+numberOfDays
     );
-    return returnDate.toISOString().slice(0,10)
+    return returnDate;
 };
 
 export { addDate }

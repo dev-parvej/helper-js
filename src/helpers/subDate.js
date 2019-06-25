@@ -5,7 +5,7 @@ import {handleInvalidDate} from './validator'
 const subDate = ( startDate = new Date(), numberOfDays = 1) => {
     handleInvalidDate(startDate); //through error if the date is invalid
     startDate.setDate(startDate.getDate() - numberOfDays);
-    return startDate.toISOString().slice(0,10)
+    return startDate;
 }
 
 export {subDate};
