@@ -13,6 +13,14 @@ npm i aj-helper-js
   const result = helperName(...parameter);
 ```
 
+#Example
+
+```
+import { addDate } from 'aj-helper-js'
+addDate(new Date(), 2);
+
+```
+
 # testing
 Run
 ```
