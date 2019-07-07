@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build": "babel src -d build" 
+    "build": "babel src -d build"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/Akashaj09/helper-js#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "mocha": "^6.1.4"
   }
 }

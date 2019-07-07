@@ -3,13 +3,13 @@ const helpers = require('./../build/index');
 
 describe('helpers-js', function(){
 	describe('addDate', function(){
-        it('should return 26 after adding 1 day to to current date', function(){
-            assert.equal(helpers.addDate(new Date(), 1).getDate(), 26);
+        it(`should return ${ new Date().getDate() + 1 } after adding 1 day to to current date`, function(){
+            assert.equal(helpers.addDate(new Date(), 1).getDate(), new Date().getDate() + 1);
         });
     });
     describe('subDate', function() {
-        it('it should return 24 after subtracting 1 day to current date', function(){
-            assert.equal(helpers.subDate(new Date(), 1).getDate(), 24);
+        it(`it should return ${ new Date().getDate() -1 } after subtracting 1 day to current date`, function(){
+            assert.equal(helpers.subDate(new Date(), 1).getDate(), new Date().getDate() -1);
         });
     });
     describe('count', function(){
