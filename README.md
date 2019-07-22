@@ -21,7 +21,7 @@ addDate(new Date(), 2);
 
 ```
 
-# testing
+# Testing
 Run
 ```
 npm install
