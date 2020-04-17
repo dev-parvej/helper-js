@@ -1,5 +1,5 @@
 # helper-js
-sum simple helper method for js
+Some simple helper method for js
 # installation 
 ```
 npm i aj-helper-js
