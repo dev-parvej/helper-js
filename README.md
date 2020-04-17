@@ -15,7 +15,7 @@ npm i aj-helper-js
 #### Usages of formDataAssigner
 This function will help you to make formData object to any level of data you want. Sometimes it suckes to append data menually.
 ```
-impost { formDataAssigner } from 'aj-helper-js'
+import { formDataAssigner } from 'aj-helper-js'
 
 let formData = formDataAssigner({name: "Akash"});
 
